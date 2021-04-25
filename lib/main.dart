@@ -7,13 +7,16 @@ void main() {
         child: Column(
           children: [
             Text(
-                "Taskie",
-              style: TextStyle(
-                fontSize: 36.0,
-                fontWeight: FontWeight.bold
-              ),
+              "Taskie",
+              style: TextStyle(fontSize: 48.0, fontFamily: 'OrelegaOne'),
             ),
-            Text("Chetan Gupta"),
+            Text(
+              "Chetan Gupta",
+              style: TextStyle(
+                  fontSize: 16.0,
+                  fontFamily: 'Nunito',
+                  fontWeight: FontWeight.w700),
+            ),
             CircularProgressIndicator()
           ],
         ),
@@ -22,5 +25,3 @@ void main() {
   );
   runApp(taskieApp);
 }
-
-

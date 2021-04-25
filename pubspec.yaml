@@ -66,9 +66,14 @@ flutter:
         - asset: assets/fonts/orelega_one_regular.ttf
     - family: Nunito
       fonts:
-        - asset: assets/fonts/nunito_regular.ttf
-        - asset: assets/fonts/nunito_bold.ttf
-        - asset: assets/fonts/nunito_semibold.ttf
         - asset: assets/fonts/nunito_light.ttf
+          weight: 300
+        - asset: assets/fonts/nunito_regular.ttf
+          weight: 400
+        - asset: assets/fonts/nunito_semibold.ttf
+          weight: 600
+        - asset: assets/fonts/nunito_bold.ttf
+          weight: 700
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
